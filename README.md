@@ -36,5 +36,16 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
     ```
     Note that computation time depends on GPU performance, parameter setting and input 3D model. Tested on GeForce GTX 1080 Ti, under default setting, Neural Contours of `bumps_a` takes about 12 minutes.
 
+### Cite:
+```
+@InProceedings{Liu_2020_CVPR,
+author={Liu, Difan and Nabail, Mohamed and Hertzmann, Aaron and Kalogerakis, Evangelos},
+title={Neural Contours: Learning to Draw Lines from 3D Shapes},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+```
+
 ### Contact
 To ask questions, please [email](mailto:dliu@cs.umass.edu).
