@@ -18,14 +18,17 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
     ```
     
 ### Differentiable Geometry Branch
-- demo:
+- run geometry branch without NRM (Neural Ranking Module), this script takes thresholds of geometric lines as input:
     ```python
     python -m scripts.geometry_branch_demo -sc 10.0 -r 10.0 -v 10.0 -ar 0.1 -model_name bumps_a -save_name data/output/bumps_a.png
     ```
 
-### Testing with NRM
-- Coming soon
-    
+### Testing with NRM and ITB (Image Translation Branch)
+- Testing with NRM and ITB:
+    ```python
+    python -m scripts.test -model_name bumps_a -save_name data/output/bumps_a_NCs.png
+    ```
+    Note that computation time depends on GPU performance, parameter setting and input 3D model. Testes on GeForce GTX 1080 Ti, under default setting, Neural Contours of `bumps_a` takes about 12 minutes.
 
 ### Contact
 To ask questions, please [email](mailto:dliu@cs.umass.edu).

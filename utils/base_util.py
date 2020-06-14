@@ -45,7 +45,7 @@ def fetch_IT_input(folder_pos):
 
     output_np = np.concatenate((nv_img, depth_img), axis=0)
     output_np = output_np[np.newaxis, :, :, :]
-    output = torch.from_numpy(output_np).type(torch.cuda.FloatTensor)  # 3 256 256   [-1.0, 1.0]
+    output = torch.from_numpy(output_np).type(torch.cuda.FloatTensor)
     return output
 
 
