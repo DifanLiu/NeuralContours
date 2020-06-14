@@ -9,7 +9,13 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
     - PyYAML (tested with 5.3.1)
     - scikit-image (tested with 0.14.2)
 
-### Dataset
+### Dataset and Weights
+- Pre-trained model is available [here](https://www.dropbox.com/s/nihzuh524oe0zuu/weights.zip?dl=0), please put it in `data/model_weights`:
+    ```
+    cd data/model_weights
+    unzip weights.zip
+    ```
+
 - download example testing data:
     ```
     cd data/example
@@ -28,7 +34,7 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
     ```python
     python -m scripts.test -model_name bumps_a -save_name data/output/bumps_a_NCs.png
     ```
-    Note that computation time depends on GPU performance, parameter setting and input 3D model. Testes on GeForce GTX 1080 Ti, under default setting, Neural Contours of `bumps_a` takes about 12 minutes.
+    Note that computation time depends on GPU performance, parameter setting and input 3D model. Tested on GeForce GTX 1080 Ti, under default setting, Neural Contours of `bumps_a` takes about 12 minutes.
 
 ### Contact
 To ask questions, please [email](mailto:dliu@cs.umass.edu).
