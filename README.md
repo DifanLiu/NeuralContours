@@ -22,7 +22,7 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
     wget https://people.cs.umass.edu/~dliu/projects/NeuralContours/example.zip
     unzip example.zip
     ```
-- training data is available [here](https://people.cs.umass.edu/~dliu/projects/NeuralContours/):
+- training data is available [here](https://people.cs.umass.edu/~dliu/projects/NeuralContours/).
 
     
 ### Differentiable Geometry Branch
