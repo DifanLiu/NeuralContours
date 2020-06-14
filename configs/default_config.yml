@@ -1,4 +1,4 @@
-seed_num: 512
+seed_num: 2048
 ITB_path: "data/model_weights/image_translation_branch.pth"
 NRM_path: "data/model_weights/neural_ranking_module.pth"
 data_folder: "data/example"
