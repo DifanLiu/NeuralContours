@@ -34,7 +34,7 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
     ```python
     python -m scripts.test -model_name bumps_a -save_name data/output/bumps_a_NCs.png
     ```
-    Note that computation time depends on GPU performance, parameter setting and input 3D model. Tested on GeForce GTX 1080 Ti, under default setting, Neural Contours of `bumps_a` takes about 12 minutes.
+    Note that computation time depends on GPU performance, parameter setting and input 3D model. For reference, tested on GeForce GTX 1080 Ti, under default setting, Neural Contours of `bumps_a` takes about 12 minutes.
 
 ### Cite:
 ```
