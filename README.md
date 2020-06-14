@@ -6,6 +6,8 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
 - The project is developed on Ubuntu 16.04 with cuda9.0 + cudnn7.0. The code has been tested with PyTorch 1.1.0 (GPU version) and Python 3.6.8. 
 - Python packages:
     - OpenCV (tested with 4.2.0)
+    - PyYAML (tested with 5.3.1)
+    - scikit-image (tested with 0.14.2)
 
 ### Dataset
 - download example testing data:
