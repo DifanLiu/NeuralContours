@@ -1,0 +1,14 @@
+seed_num: 512
+ITB_path: "data/model_weights/image_translation_branch.pth"
+NRM_path: "data/model_weights/neural_ranking_module.pth"
+data_folder: "data/example"
+
+initialization_num: 10
+lr: 0.01
+num_iteration: 50
+skip_threshold: 5
+
+rd_b_t: 220
+rd_sigma_para: 3.7
+rd_threshold: 0.0015
+rd_kernel_size: 5
