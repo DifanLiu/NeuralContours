@@ -85,7 +85,7 @@ optimized_list = []  # store optimized para for each initialization seed
 
 
 for init_idx, init_para in enumerate(init_list):  # loop over each initialization
-    # print('seed init', seed_init)
+
     good_loss = 2e10
     good_para = None
 
