@@ -26,6 +26,7 @@ This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2
 
     
 ### Differentiable Geometry Branch
+- we use [rtsc-1.6](https://gfx.cs.princeton.edu/proj/sugcon/) to compute all the input geometric features maps and lines.
 - run geometry branch without NRM (Neural Ranking Module), this script takes thresholds of geometric lines as input:
     ```python
     python -m scripts.geometry_branch_demo -sc 10.0 -r 10.0 -v 10.0 -ar 0.1 -model_name bumps_a -save_name data/output/bumps_a.png
