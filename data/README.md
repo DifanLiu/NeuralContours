@@ -26,6 +26,6 @@ This page includes the information about precomputed lines and geometric feature
 ### Contours and Creases
 - `base.png`: contours and creases rendered by Blender Freestyle under default setting.
 
-### View Representations
+### View-based Shape Representations
 - `smooth_*.png`: shaded rendering. We set `currsmooth = smooth_value * themesh->feature_size()` in `rtsc-1.6/rtsc.cc`. Normals are diffused by function `filter_normals` in `rtsc-1.6/rtsc.cc`. From `smooth_1.png` to `smooth_5.png`, we set `smooth_value = [1， 2， 3， 4， 5]`.
 - `depth.png`: depth image.
