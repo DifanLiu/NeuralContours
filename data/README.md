@@ -16,3 +16,8 @@ This page includes the information about precomputed lines and geometric feature
 - `valley.png`: unfiltered valleys. In `rtsc-1.6/rtsc.cc`, set `rv_thresh = 0` and `draw_valleys = 1`.
 - `valley_feature.png`: `k2` (the negative first principal curvature) which is normalized by the 90% percentile maximum and saved as an image. In `rtsc-1.6/rtsc.cc`, check variable `themesh->curv1`.
 - `valley_info.txt`: the first number is the 90% percentile maximum of `-themesh->curv1` (positive `themesh->curv1` are first removed). The second number is feature size of the mesh.
+
+### Apparent Ridges
+- `apparent_ridge.png`: unfiltered apparent ridges. In `rtsc-1.6/rtsc.cc`, set `ar_thresh = 0` and `draw_apparent = 1`.
+- `apparent_ridge_feature.png`: `kt` (view-dependent curvature) which is normalized by the 90% percentile maximum and saved as an image. In `rtsc-1.6/rtsc.cc`, check variable `q1` in function `compute_perview`.
+- `apparent_ridge_info.txt`: the first number is the 90% percentile maximum of `kt` (negative `kt` are first removed). The second number is feature size of the mesh.
