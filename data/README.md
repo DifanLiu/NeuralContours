@@ -22,3 +22,10 @@ This page includes the information about precomputed lines and geometric feature
 - `apparent_ridge.png`: unfiltered apparent ridges. In `rtsc-1.6/rtsc.cc`, set `ar_thresh = 0` and `draw_apparent = 1`.
 - `apparent_ridge_feature.png`: `kt` (view-dependent curvature) which is normalized by the 90% percentile maximum and saved as an image. In `rtsc-1.6/rtsc.cc`, check variable `q1` in function `compute_perview`.
 - `apparent_ridge_info.txt`: the first number is the 90% percentile maximum of `kt` (negative `kt` are first removed). The second number is feature size of the mesh.
+
+### Contours and Creases
+- `base.png`: contours and creases rendered by Blender Freestyle under default setting.
+
+### View Representations
+- `smooth_*.png`: shaded rendering. We set `currsmooth = smooth_value * themesh->feature_size()` in `rtsc-1.6/rtsc.cc`. Normals are diffused by function `filter_normals` in `rtsc-1.6/rtsc.cc`. From `smooth_1.png` to `smooth_5.png`, we set `smooth_value = [1， 2， 3， 4， 5]`.
+- `depth.png`: depth image.
