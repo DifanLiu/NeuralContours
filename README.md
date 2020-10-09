@@ -2,6 +2,8 @@
 
 This repository contains the PyTorch implementation for [CVPR 2020](http://cvpr2020.thecvf.com/) Paper "Neural Contours: Learning to Draw Lines from 3D Shapes" by [Difan Liu](https://people.cs.umass.edu/~dliu/), Mohamed Nabail, [Aaron Hertzmann](https://www.dgp.toronto.edu/~hertzman/), [Evangelos Kalogerakis](https://people.cs.umass.edu/~kalo/).
 
+[[Arxiv]](https://arxiv.org/abs/2003.10333)
+
 ### Dependency
 - The project is developed on Ubuntu 16.04 with cuda9.0 + cudnn7.0. The code has been tested with PyTorch 1.1.0 (GPU version) and Python 3.6.8. 
 - Python packages:
